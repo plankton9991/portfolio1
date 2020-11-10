@@ -1,0 +1,41 @@
+.download
+  padding-top: 237px
+  &__circle
+    margin-top: 85px
+    margin-left: 45px
+    margin-bottom: 47px
+  &__title
+    +playfair-display
+    color: #000000
+    font-size: 36px
+    line-height: 50px
+    margin-bottom: 20px
+    max-width: 350px
+  &__subtitle
+    +muli-300
+    color: #7d7987
+    font-size: 17px
+    line-height: 30px
+    max-width: 450px
+    margin-bottom: 39px
+  &__button
+    +inter-400
+    font-size: 16px
+    color: #ffffff
+    border-radius: 8px
+    background-color: #fb8f1d
+    border: none
+    padding: 13px 43px
+    &:hover
+      cursor: pointer
+      background-color: darken($main-color, 10%)
+@media (max-width: 567px)
+  .download
+    padding-top: 120px
+    &__button
+      margin-left: 95px
+      margin-bottom: 40px
+    &__image
+      width: 50%
+      height: 50%
+      margin: auto

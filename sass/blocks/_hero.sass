@@ -1,0 +1,59 @@
+.hero
+  
+  &-block
+    padding-top: 80px
+  &__title
+    margin-top: 50px
+    color: #202336
+    font-size: 64px
+    +playfair-display
+    line-height: 80px
+    text-align: left
+    width: 370px
+  &__subtitle
+    margin-top: 74px
+    color: #202336
+    +inter-400
+    font-size: 22px
+    letter-spacing: normal
+  &__line
+    width: 32px
+    height: 2px
+    border-radius: 4px
+    background-color: #202336
+    margin-top: 21px
+    margin-bottom: 48px
+  &__input_1
+    margin-bottom: 35px
+  &__button
+    color: white
+    +muli-700
+    font-size: 17px
+    margin-top: 51px
+    background-color: $main-color
+    padding-left: 60px
+    padding-right: 60px
+    padding-top: 14px
+    padding-bottom: 14px
+    border-radius: 8px
+    border: none
+    &:hover
+      cursor: pointer
+      background-color: darken($main-color, 10%)
+  &__select
+    width: 220px
+    height: 52px
+    border-radius: 6px
+    border: 1px solid #afb0b9
+    margin-right: 30px
+    color: #4a4c53
+    +inter-400
+    font-size: 15px
+    padding: 17px 30px 15px 31px
+@media (max-width: 567px)
+  .hero
+    &__image
+      width: 50%
+      height: 50%
+      margin: auto
+      margin-top: 15px

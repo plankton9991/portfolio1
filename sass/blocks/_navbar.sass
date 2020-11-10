@@ -1,0 +1,65 @@
+.navbar
+  padding-top: 44px
+  &-block
+    display: flex
+    justify-content: space-between
+  &-contain
+    display: flex
+  &__nohome
+    margin-right: 34px
+    text-decoration: none
+    margin-top: 12px
+    +inter-400
+    color: #b8becd
+    font-size: 16px
+    &:hover
+      color: #202336
+  &__home
+    color: #202336
+    margin-right: 34px
+    text-decoration: none
+    margin-top: 12px
+    +inter-500
+    font-size: 16px
+  &__button
+    margin-right: 18px
+    +inter-500
+    color: $main-color
+    padding-right: 46px
+    padding-left: 46px
+    background-color: white
+    border: 1px solid #fb8f1d
+    border-radius: 8px
+    &:hover
+      cursor: pointer
+      background-color: $main-color
+      color: white
+  &__button_orange
+    background-color: $main-color
+    +inter-500
+    color: white
+    padding-right: 36px
+    padding-left: 36px
+    border-radius: 8px
+    border: 1px solid #fb8f1d
+    &:hover
+      cursor: pointer
+      background-color: white
+      color: $main-color
+@media (max-width: 1000px)
+  .navbar
+    &__nohome
+      margin-right: 12px
+    &__home
+      margin-right: 12px
+@media (max-width: 777px)
+  .navbar
+    &-contain
+      display: flex
+      justify-content: flex-end
+    &__nohome
+      display: none
+    &__home
+      display: none
+    &__button_orange
+      margin-right: 10px

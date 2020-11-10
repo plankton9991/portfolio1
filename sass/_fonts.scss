@@ -1,0 +1,28 @@
+@mixin inter-400 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+@mixin inter-500{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+@mixin inter-700{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+@mixin playfair-display{
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
+}
+@mixin muli-300{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+}
+@mixin muli-400{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+}
+@mixin muli-700{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+}
